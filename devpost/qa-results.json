@@ -1,60 +1,82 @@
 {
   "date": "2026-10-25",
-  "base_url": "http://127.0.0.1:8317/?demo=1",
-  "mode": "isolated labelled demo workspace",
+  "version": "0.2.0",
+  "base_revision": "ff3fb59a6260210c0f9fb935e5b77e75f987fe70",
+  "runtime": "Actual Codex in-app Chromium, local HTTP server on 127.0.0.1:8317",
+  "source_sha256": {
+    "docs/app.mjs": "901548cf3c84c0f83ed8bf85646bd8a02a2d18636dcc01fdd34f3e41c82bdea9",
+    "docs/core.mjs": "15e6609010612b56d56bf6b35901cc55574f94228083ca77e5b72026bac2772e",
+    "docs/workspace.mjs": "3e2205667960002fd251814aa25391a203c9766016e6007713d99a553704ccc5",
+    "docs/index.html": "c694c57ae1511cf23749ace7b7dfebc8cf7d9fdeec005313cb5790cb4d613e3e",
+    "docs/styles.css": "102028890f40a8fdc9cfeebc6128608f93121501567afa913e15e98af427b821",
+    "docs/opportunities.json": "c8ad01a71a72dec756aac85195c64a2b2d920bb065f5bf35682ef0f87e5c8d01",
+    "tests/core.test.mjs": "ee2df2f631cd013dcafd5eb19deb60ab182c2409f30040cda086698c687ff75f",
+    "tests/workspace.test.mjs": "d1077f87e06e74ed34450b46e676dca922318d2d8156de7161885346297fa824",
+    "package.json": "4ec94c609212b2e5964f49aa2c887428b32ae3373ee3b2b54ddfa807a33d2b87"
+  },
   "core_tests": {
-    "passed": 21,
+    "passed": 45,
     "failed": 0
   },
   "browser_checks": [
     {
-      "case": "student exclusion",
-      "observed": "Not a fit and Current student required fails for non-student; switching to student changes to Can prepare"
+      "case": "registration cutoff",
+      "observed": "After a join cutoff, no receipt gives Entry closed; an existing user-recorded registration keeps final delivery open until the final deadline."
     },
     {
-      "case": "save plan",
-      "observed": "1 planned, 0 registration receipts, 0 submission receipts"
+      "case": "plan versus action",
+      "observed": "Saving a plan showed 1/0/0. A registration was separate and persisted after reload."
     },
     {
-      "case": "receipt confirmation",
-      "observed": "Unchecked confirmation shows error and does not add a receipt"
+      "case": "receipt correction",
+      "observed": "Remove local registration changed the count to 0; Undo restored the exact example record."
     },
     {
-      "case": "reload persistence",
-      "observed": "Registration example URL persists after reload; 1/1/0"
+      "case": "unbookmarked receipt",
+      "observed": "Removing a bookmark retained its receipt in My entries; 0 plans/1 registration/0 submissions."
     },
     {
-      "case": "separate submission",
-      "observed": "Adding a labelled submission example produces 1/1/1"
+      "case": "real export/restore",
+      "observed": "A browser download was selected through the actual chooser; preview, cancel, restore, undo, restore again and reload retained the same example URL and counts."
     },
     {
-      "case": "empty search",
-      "observed": "No matches clears stale detail; clearing filters restores list"
+      "case": "invalid import",
+      "observed": "Malformed JSON produced a visible error; existing counts remained unchanged."
     },
     {
-      "case": "reset demo",
-      "observed": "Visible in demo only; resets demonstration counts to 0/0/0"
+      "case": "mode isolation",
+      "observed": "Personal workspace hid demo controls; importing a demo export was rejected, with personal counts unchanged at zero."
     },
     {
-      "case": "narrow layout",
-      "observed": "390px viewport and 390px document width; shortened age label fits"
+      "case": "narrow navigation",
+      "observed": "390px document width equalled the viewport. Selecting ARC brought its title to 111px from the top; Back returned the queue title to 22px."
+    },
+    {
+      "case": "two-tab stale overwrite",
+      "observed": "Before repair: stale tab edit replaced 1 saved plan with 0. After storage-event synchronization: the second tab refreshed to 1/1/0 and further profile edits preserved it."
+    },
+    {
+      "case": "undo expiry",
+      "observed": "A new profile change removed the prior Undo action, avoiding a later rollback over newer edits."
+    },
+    {
+      "case": "console",
+      "observed": "No captured application errors were returned during the final local interaction check."
     }
   ],
   "screenshots": [
-    "00-desktop.jpg",
-    "02-plan-is-not-registration.jpg",
-    "07-receipt-confirmation.jpg",
-    "04-separate-submission.jpg",
-    "01-student-exclusion.jpg",
-    "03-registration-readback.jpg",
-    "06-registration-cutoff.jpg",
-    "05-narrow.jpg"
+    "demo/stills-v02/desktop.jpg",
+    "demo/stills-v02/registration-closed.jpg",
+    "demo/stills-v02/registration-recorded.jpg",
+    "demo/stills-v02/restore-preview.jpg",
+    "demo/stills-v02/mobile-detail.jpg"
   ],
-  "browser_console_errors": [],
   "limits": [
-    "No real contest registration or submission performed by the app",
-    "Receipts are user-recorded evidence, not organizer-verified",
-    "No device-native, screen-reader, or complete keyboard audit claimed",
-    "Brand-removal diagnostic not performed; visual acceptance is limited to inspected desktop and narrow states"
-  ]
+    "All receipt URLs are labelled example.org fixtures. No real contest action is represented.",
+    "No organizer eligibility or receipt authenticity is independently verified by the app.",
+    "No physical device, complete keyboard/screen-reader audit or formal usability study claimed.",
+    "Browser storage/quota failure was not artificially injected into a real user profile; code preserves unreadable stored data.",
+    "The film demonstrates single-tab flows; the final storage-event repair was verified separately in two actual tabs."
+  ],
+  "entry_status": "Not submitted: account/personal fields and a required public YouTube/Vimeo link remain outstanding."
 }

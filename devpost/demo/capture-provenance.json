@@ -1,0 +1,48 @@
+{
+  "type": "Edited live browser captures",
+  "duration_seconds": 85.609,
+  "actual_frames": 326,
+  "scenes": [
+    {
+      "label": "Sourced requirements before making a work",
+      "start": 0,
+      "duration": 7.027
+    },
+    {
+      "label": "Student eligibility changes the recorded decision",
+      "start": 7.027,
+      "duration": 14.113
+    },
+    {
+      "label": "Different registration and submission deadlines",
+      "start": 21.14,
+      "duration": 11.02
+    },
+    {
+      "label": "Plans, registration receipts and persistent readback",
+      "start": 32.16,
+      "duration": 15.041
+    },
+    {
+      "label": "A mistaken local receipt can be removed and undone",
+      "start": 47.20099999999999,
+      "duration": 12.172
+    },
+    {
+      "label": "Export, reset, preview and restore the same backup",
+      "start": 59.37299999999999,
+      "duration": 17.112
+    },
+    {
+      "label": "Narrow layout with direct detail navigation",
+      "start": 76.48499999999999,
+      "duration": 9.212
+    }
+  ],
+  "video_sha256": "08891770655e829a873966dd5303e74bfa715f78a14edb3c957d933f507557ea",
+  "notes": [
+    "Four frames per second targeted; actual frame timing retained for encoding.",
+    "All frames were captured through normal controls; all receipt URLs are labelled examples.",
+    "No continuous screen-recording claim, synthetic user reflection, music, or cloned voice."
+  ]
+}

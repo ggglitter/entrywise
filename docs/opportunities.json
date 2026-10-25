@@ -252,7 +252,10 @@
       "url": "https://elevenlabs.io/blog/the-search-100000-for-the-worlds-catchiest-ad",
       "reviewed": "2026-10-25",
       "rules": {
-        "minAge": 18
+        "minAge": 18,
+        "review": [
+          "Government employment/family exclusions and organizer-related conflicts need applicant confirmation"
+        ]
       }
     },
     {

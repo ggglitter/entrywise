@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-25",
+  "base_url": "http://127.0.0.1:8317/?demo=1",
+  "mode": "isolated labelled demo workspace",
+  "core_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "browser_checks": [
+    {
+      "case": "student exclusion",
+      "observed": "Not a fit and Current student required fails for non-student; switching to student changes to Can prepare"
+    },
+    {
+      "case": "save plan",
+      "observed": "1 planned, 0 registration receipts, 0 submission receipts"
+    },
+    {
+      "case": "receipt confirmation",
+      "observed": "Unchecked confirmation shows error and does not add a receipt"
+    },
+    {
+      "case": "reload persistence",
+      "observed": "Registration example URL persists after reload; 1/1/0"
+    },
+    {
+      "case": "separate submission",
+      "observed": "Adding a labelled submission example produces 1/1/1"
+    },
+    {
+      "case": "empty search",
+      "observed": "No matches clears stale detail; clearing filters restores list"
+    },
+    {
+      "case": "reset demo",
+      "observed": "Visible in demo only; resets demonstration counts to 0/0/0"
+    },
+    {
+      "case": "narrow layout",
+      "observed": "390px viewport and 390px document width; shortened age label fits"
+    }
+  ],
+  "screenshots": [
+    "00-desktop.jpg",
+    "02-plan-is-not-registration.jpg",
+    "07-receipt-confirmation.jpg",
+    "04-separate-submission.jpg",
+    "01-student-exclusion.jpg",
+    "03-registration-readback.jpg",
+    "06-registration-cutoff.jpg",
+    "05-narrow.jpg"
+  ],
+  "browser_console_errors": [],
+  "limits": [
+    "No real contest registration or submission performed by the app",
+    "Receipts are user-recorded evidence, not organizer-verified",
+    "No device-native, screen-reader, or complete keyboard audit claimed",
+    "Brand-removal diagnostic not performed; visual acceptance is limited to inspected desktop and narrow states"
+  ]
+}

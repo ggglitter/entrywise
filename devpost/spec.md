@@ -10,10 +10,14 @@ Static HTML/CSS, ES modules and no third-party runtime packages.
 - docs/app.mjs: events, rendering and localStorage.
 - docs/opportunities.json: dated public facts and source links.
 - tests/core.test.mjs: eligibility boundaries and receipt transitions.
+- docs/workspace.mjs and tests/workspace.test.mjs: validated backup formats,
+  mode isolation, deduplication, preservation of unbookmarked receipts and exports.
 
 ## Data flow
 Public facts plus local profile become individual checks and a decision.
 Local plans and receipts persist to browser storage, reload and JSON export.
+Restoration is reviewed before replacement, with immediate undo. Storage events
+refresh other open tabs. Invalid saved data is preserved instead of overwritten.
 Participant names, contact information and credentials are absent from assets.
 
 ## Receipt contract

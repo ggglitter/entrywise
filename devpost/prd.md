@@ -26,6 +26,10 @@ opportunity rows. Desktop queue and evidence sheet; mobile stacking.
 - Registration and submission remain separate after reload.
 - Storage errors are visible.
 - Demo examples use a separate namespace and are labelled.
+- Backups can be previewed, cancelled, restored and undone without mixing modes.
+- Removing a local receipt does not alter an organizer's entry.
+- Open tabs refresh shared records before a later ordinary profile edit.
+- A registered creator is not blocked merely because a separate join window closed.
 
 ## Boundaries
 The app does not verify organizer eligibility or receipt authenticity.

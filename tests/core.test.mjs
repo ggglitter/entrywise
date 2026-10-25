@@ -25,3 +25,14 @@ test('receipt requires confirmation',()=>assert.throws(()=>receiptRecord({id:'ca
 test('script and credential URLs are rejected',()=>{for(const url of ['javascript:alert(1)','https://user:pass@example.org/'])assert.throws(()=>receiptRecord({id:'case',type:'submission',url,confirmed:true}),/HTTP/);});
 test('demo receipt is labelled example',()=>assert.equal(receiptRecord({id:'case',type:'registration',url:'https://example.org/',confirmed:true,demo:true},now).source,'demo_example'));
 test('user content is escaped before DOM interpolation',()=>assert.equal(escapeHTML('<img onerror="x">'),'&lt;img onerror=&quot;x&quot;&gt;'));
+test('registration receipt keeps a registered creator eligible after join cutoff',()=>assert.equal(assess({...event,registrationDeadline:'2026-10-24T23:59:00Z'},profile,now,{registered:true}).decision,'prepare'));
+test('registration does not bypass the final submission deadline',()=>assert.equal(assess({...event,registrationDeadline:'2026-10-24T23:59:00Z'},profile,new Date('2026-11-02T00:00:00Z'),{registered:true}).decision,'closed'));
+test('invalid registration cutoff remains unknown',()=>assert.equal(assess({...event,registrationDeadline:'not-a-time'},profile,now).decision,'review'));
+test('date without a time zone cannot silently become an exact cutoff',()=>assert.equal(assess({...event,deadline:'2026-11-01'},profile,now).decision,'review'));
+test('an exact eighteen-year-old fails a twenty-one-plus condition',()=>assert.equal(assess({...event,rules:{minAge:21}},{...profile,age:'18'},now).decision,'unavailable'));
+test('an adult of unknown exact age remains unknown for twenty-one-plus',()=>assert.equal(assess({...event,rules:{minAge:21}},profile,now).decision,'review'));
+test('age at an exclusive ceiling fails',()=>assert.equal(assess({...event,rules:{maxAgeExclusive:18}},{...profile,age:'18'},now).decision,'unavailable'));
+test('a known entry fee fails the free-entry constraint',()=>assert.equal(assess({...event,fee:10},profile,now).decision,'unavailable'));
+test('known mandatory attendance fails the remote constraint',()=>assert.equal(assess({...event,remote:false},profile,now).decision,'unavailable'));
+test('impossible calendar day is not normalized into a false exact deadline',()=>assert.equal(assess({...event,deadline:'2026-02-31T12:00:00Z'},profile,now).decision,'review'));
+test('invalid clock hour requires confirmation',()=>assert.equal(assess({...event,registrationDeadline:'2026-10-26T24:01:00Z'},profile,now).decision,'review'));
