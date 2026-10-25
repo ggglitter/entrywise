@@ -1,0 +1,414 @@
+{
+  "as_of": "2026-10-25",
+  "note": "Public source-linked research snapshot. No real registrations or submissions represented.",
+  "opportunities": [
+    {
+      "id": "S01",
+      "name": "PayPal AI Hackathon",
+      "category": "AI & software",
+      "reward": "US$67,500 cash pool",
+      "requirements": "Use PayPal Sandbox and AI in a working app, with code and demonstration.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-12T20:00:00Z",
+      "source": "https://paypalaihackathon.devpost.com/rules",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "review": [
+          "Full identity and prize-payment requirements still apply"
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "name": "Nebius × NVIDIA Global AI Hackathon",
+      "category": "AI & software",
+      "reward": "US$36,000 remote top-three cash prizes",
+      "requirements": "Use Nebius Token Factory and NVIDIA open models. City attendance awards excluded.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-10-30T17:00:00Z",
+      "source": "https://nebiusglobalaihackathon.devpost.com/rules",
+      "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "review": [
+          "Full identity and prize-payment requirements still apply"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "name": "Build With AI: Basics",
+      "category": "AI & software",
+      "reward": "US$2,500 cash pool",
+      "requirements": "New app using the Devpost Learn Skill Pack, planning docs, public repo and 1–3 minute video.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-10-26T21:00:00Z",
+      "source": "https://learn-ai-basics.devpost.com/rules",
+      "url": "https://learn-ai-basics.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "review": [
+          "Full identity and prize-payment requirements still apply"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "name": "Learn AR with SPECS",
+      "category": "AR & software",
+      "reward": "US$2,500 cash pool",
+      "requirements": "Lens Studio AR project using the specified Skill Pack. Glasses are not required.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-09T22:00:00Z",
+      "source": "https://learn-specs.devpost.com/rules",
+      "url": "https://learn-specs.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "review": [
+          "Full identity and prize-payment requirements still apply"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "name": "Meta VR Start Developer Competition 2026",
+      "category": "VR & software",
+      "reward": "US$1,000,000 cash pool",
+      "requirements": "Existing eligible Meta VR Start membership and a hands-first VR application.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-18T20:00:00Z",
+      "source": "https://start-developer-competition-26.devpost.com/rules",
+      "url": "https://start-developer-competition-26.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "memberOnly": true
+      }
+    },
+    {
+      "id": "S13",
+      "name": "Cosmo Hacks 2026",
+      "category": "Student software",
+      "reward": "US$300 cash plus sponsor benefits",
+      "requirements": "Current student; create only during the December build window.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-12-21T18:00:00Z",
+      "source": "https://cosmohacks.devpost.com/rules",
+      "url": "https://www.cosmohacks.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "studentOnly": true
+      },
+      "startsAt": "2026-12-18T00:00:00Z"
+    },
+    {
+      "id": "S14",
+      "name": "LaunchPad Hacks",
+      "category": "Student software",
+      "reward": "US$300 first prize",
+      "requirements": "Current adult student; functional prototype and demonstration.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-20T22:00:00Z",
+      "source": "https://launchpad-hacks.devpost.com/rules",
+      "url": "https://launchpad-hacks.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "studentOnly": true
+      }
+    },
+    {
+      "id": "S15",
+      "name": "Global AI Builder’s Challenge",
+      "category": "Student software",
+      "reward": "Certificates; extra sponsor prizes unconfirmed",
+      "requirements": "Current student; new or materially improved project during the build window.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-28T23:00:00Z",
+      "source": "https://global-ai-builders-challenge.devpost.com/rules",
+      "url": "https://global-ai-builders-challenge.devpost.com/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "studentOnly": true
+      },
+      "startsAt": "2026-11-21T00:00:00Z"
+    },
+    {
+      "id": "S16",
+      "name": "AI for Church Hackathon 2026",
+      "category": "AI & community",
+      "reward": "100 Lovable credits; cash unconfirmed",
+      "requirements": "Mission-aligned church-service app. The build window starts October 30.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-28T04:59:00Z",
+      "source": "https://aiforchurch.com/hackathon",
+      "url": "https://aiforchurch.com/hackathon",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "review": [
+          "Mission alignment and regional conditions need confirmation"
+        ]
+      },
+      "startsAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "id": "D01",
+      "name": "ARC Prize 2026 — ARC-AGI-2",
+      "category": "Algorithms",
+      "reward": "US$275,000 progress pool plus conditional awards",
+      "requirements": "Open-source, offline Kaggle notebook. Registration closes earlier than submission.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-02T23:59:00Z",
+      "source": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview/prizes",
+      "url": "https://arcprize.org/competitions/2026/arc-agi-2",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18
+      },
+      "registrationDeadline": "2026-10-26T23:59:00Z"
+    },
+    {
+      "id": "D02",
+      "name": "ARC Prize 2026 — ARC-AGI-3",
+      "category": "Algorithms",
+      "reward": "US$75,000 top-score pool plus conditional grand prize",
+      "requirements": "Offline interactive agent and open-source methods. Earlier milestones have closed.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-02T23:59:00Z",
+      "source": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/overview",
+      "url": "https://arcprize.org/competitions/2026/arc-agi-3",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18
+      },
+      "registrationDeadline": "2026-10-26T23:59:00Z"
+    },
+    {
+      "id": "D03",
+      "name": "ARC Prize 2026 — Paper Prize",
+      "category": "Research",
+      "reward": "US$75,000 Top Paper pool plus discretionary awards",
+      "requirements": "Research paper linked to a real ARC-AGI-2 or 3 Kaggle code entry.",
+      "fee": 0,
+      "remote": true,
+      "deadline": null,
+      "source": "https://arcprize.org/competitions/2026",
+      "url": "https://arcprize.org/competitions/2026/paper",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18
+      },
+      "registrationDeadline": "2026-10-26T23:59:00Z"
+    },
+    {
+      "id": "D04",
+      "name": "GEMS Prize Challenge",
+      "category": "Algorithms",
+      "reward": "US$300,000 cash pool",
+      "requirements": "US eligibility documentation required; official deadline sources conflict.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-12-03T22:00:00Z",
+      "source": "https://www.herox.com/GEMSPrize",
+      "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "countries": [
+          "US"
+        ],
+        "review": [
+          "Federal prize identity requirements and conflicting deadline need confirmation"
+        ]
+      }
+    },
+    {
+      "id": "V01",
+      "name": "ElevenLabs The Search: World's Catchiest Ad",
+      "category": "AI film & music",
+      "reward": "US$100,000 cash pool",
+      "requirements": "15–45 second fictional-brand ad with an ElevenCreative jingle and two public social posts.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-02T07:59:00Z",
+      "source": "https://elevenlabs.io/creative/thesearch/terms",
+      "url": "https://elevenlabs.io/blog/the-search-100000-for-the-worlds-catchiest-ad",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18
+      }
+    },
+    {
+      "id": "V02",
+      "name": "Wandura Drama Challenge",
+      "category": "AI film",
+      "reward": "US$10,000 judged prizes plus US$2,000 audience award",
+      "requirements": "Every frame made in Wandura. Submit a storyboard and 15-second preview before the full episode.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-10-31T23:59:00Z",
+      "source": "https://www.wandura.ai/contests/film-challenge/rules",
+      "url": "https://www.wandura.ai/contests/film-challenge",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18
+      }
+    },
+    {
+      "id": "P01",
+      "name": "Sony World Photography Awards 2027 — Series",
+      "category": "Photography",
+      "reward": "US$25,000 plus Sony equipment",
+      "requirements": "A series of 5–10 real photographs. No computer-generated origin.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2027-01-12T16:00:00Z",
+      "source": "https://www.worldphoto.org/sony-world-photography-awards/series",
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "realPhotography": true
+      }
+    },
+    {
+      "id": "P02",
+      "name": "Sony World Photography Awards 2027 — Single Image",
+      "category": "Photography",
+      "reward": "US$5,000 plus Sony equipment",
+      "requirements": "Up to three free single photographs taken in 2026. Camera originals may be requested.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2027-01-05T16:00:00Z",
+      "source": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "realPhotography": true
+      }
+    },
+    {
+      "id": "P03",
+      "name": "Sony World Photography Awards 2027 — Student",
+      "category": "Student photography",
+      "reward": "Sony equipment and exhibitions",
+      "requirements": "Registered photography student, age 18–30. Equipment for the university is not personal cash.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-27T13:00:00Z",
+      "source": "https://www.worldphoto.org/sony-world-photography-awards/student",
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/student",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "studentOnly": true,
+        "realPhotography": true,
+        "review": [
+          "Age ceiling and conflicting official cutoff need confirmation"
+        ]
+      }
+    },
+    {
+      "id": "P04",
+      "name": "Sony World Photography Awards 2027 — Youth",
+      "category": "Youth photography",
+      "reward": "Sony equipment and exhibitions",
+      "requirements": "Under 19. Real photography, with parental consent where applicable.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2027-01-05T16:00:00Z",
+      "source": "https://www.worldphoto.org/sony-world-photography-awards/youth",
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/youth",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "maxAgeExclusive": 19,
+        "realPhotography": true
+      }
+    },
+    {
+      "id": "P05",
+      "name": "Environmental Photography Award 2027",
+      "category": "Environmental photography",
+      "reward": "Category grants and grand prize; EUR11,000 listed total",
+      "requirements": "Up to 25 real environmental photographs. Actual originals and permissions required.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-01T22:59:00Z",
+      "source": "https://www.fpa2photoaward.org/en/index",
+      "url": "https://www.fpa2photoaward.org/en/index",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "minAge": 18,
+        "realPhotography": true
+      }
+    },
+    {
+      "id": "A01",
+      "name": "49th International Illustration Contest — Spooky Creatures",
+      "category": "Illustration",
+      "reward": "US$2,000 first prize plus software awards",
+      "requirements": "Spooky Creatures illustration. Generative AI is prohibited, even in part.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-11-04T23:59:00Z",
+      "source": "https://www.clipstudio.net/en/cspcontest49/",
+      "url": "https://www.clipstudio.net/en/cspcontest49/",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "noAI": true
+      }
+    },
+    {
+      "id": "A02",
+      "name": "Animayo 2027 International Poster Contest",
+      "category": "Poster design",
+      "reward": "EUR500 first prize",
+      "requirements": "Original portrait and landscape festival poster; generative AI prohibited.",
+      "fee": 0,
+      "remote": true,
+      "deadline": "2026-12-31T23:59:00Z",
+      "source": "https://www.animayo.com/pdf/Bases_Concurso_Carteles_2027_en.pdf?id=930765103",
+      "url": "https://www.animayo.com/pdf/Bases_Concurso_Carteles_2027_en.pdf?id=930765103",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "noAI": true,
+        "minAge": 16
+      }
+    },
+    {
+      "id": "A03",
+      "name": "43rd Chicago Latino Film Festival Poster Contest 2027",
+      "category": "Poster design",
+      "reward": "US$1,000 selected design",
+      "requirements": "Festival poster; fully AI-produced designs are not accepted. Current date needs confirmation.",
+      "fee": 0,
+      "remote": true,
+      "deadline": null,
+      "source": "https://chicagolatinofilmfestival.org/poster-contest",
+      "url": "https://chicagolatinofilmfestival.org/poster-contest",
+      "reviewed": "2026-10-25",
+      "rules": {
+        "review": [
+          "Human contribution and conflicting page dates need confirmation"
+        ]
+      }
+    }
+  ]
+}
