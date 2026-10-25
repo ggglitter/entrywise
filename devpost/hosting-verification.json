@@ -1,0 +1,71 @@
+{
+  "preview": "https://ggglitter.github.io/entrywise/",
+  "assets": [
+    {
+      "asset": "index.html",
+      "url": "https://ggglitter.github.io/entrywise/",
+      "status": 200,
+      "bytes": 5542,
+      "sha256": "c694c57ae1511cf23749ace7b7dfebc8cf7d9fdeec005313cb5790cb4d613e3e",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "app.mjs",
+      "url": "https://ggglitter.github.io/entrywise/app.mjs",
+      "status": 200,
+      "bytes": 13418,
+      "sha256": "901548cf3c84c0f83ed8bf85646bd8a02a2d18636dcc01fdd34f3e41c82bdea9",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "core.mjs",
+      "url": "https://ggglitter.github.io/entrywise/core.mjs",
+      "status": 200,
+      "bytes": 5526,
+      "sha256": "15e6609010612b56d56bf6b35901cc55574f94228083ca77e5b72026bac2772e",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "workspace.mjs",
+      "url": "https://ggglitter.github.io/entrywise/workspace.mjs",
+      "status": 200,
+      "bytes": 3600,
+      "sha256": "3e2205667960002fd251814aa25391a203c9766016e6007713d99a553704ccc5",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "opportunities.json",
+      "url": "https://ggglitter.github.io/entrywise/opportunities.json",
+      "status": 200,
+      "bytes": 14823,
+      "sha256": "c8ad01a71a72dec756aac85195c64a2b2d920bb065f5bf35682ef0f87e5c8d01",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "styles.css",
+      "url": "https://ggglitter.github.io/entrywise/styles.css",
+      "status": 200,
+      "bytes": 11117,
+      "sha256": "102028890f40a8fdc9cfeebc6128608f93121501567afa913e15e98af427b821",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "demo.html",
+      "url": "https://ggglitter.github.io/entrywise/demo.html",
+      "status": 200,
+      "bytes": 1431,
+      "sha256": "783ee422ef81d40ea418d81bb25b1bbdf74d4c370430e99f28e5bd91987285e5",
+      "matches_tested_local_source": true
+    },
+    {
+      "asset": "media/entrywise-demo.mp4",
+      "url": "https://ggglitter.github.io/entrywise/media/entrywise-demo.mp4",
+      "status": 200,
+      "bytes": 1487351,
+      "sha256": "08891770655e829a873966dd5303e74bfa715f78a14edb3c957d933f507557ea",
+      "matches_tested_local_source": true
+    }
+  ],
+  "all_match": true,
+  "browser_limit": "Remote page DOM and screenshot calls timed out; no hosted interaction or video playback pass claimed."
+}

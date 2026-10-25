@@ -41,6 +41,17 @@ structure. Learner interviews, approval, reflection and exit survey are not
 claimed complete. Private participant details are excluded from publication.
 Source: https://github.com/challengepost/learn-ai-basics
 
+## Preview
+Public preview: https://ggglitter.github.io/entrywise/
+Example workspace: https://ggglitter.github.io/entrywise/?demo=1
+Video player: https://ggglitter.github.io/entrywise/demo.html
+
+GitHub Pages reported a successful build of revision 413a327. All eight checked
+public assets, including the application modules and demonstration MP4, returned
+HTTP 200 and exactly matched the tested local bytes. Hosted browser DOM and
+screenshot calls timed out, so hosted interactions and video playback are not
+claimed verified. See devpost/hosting-verification.json.
+
 Version 0.2 includes a new 86-second edited live browser demonstration at
 docs/media/entrywise-demo.mp4; docs/demo.html provides a video player.
 The capture contains 326 actual browser frames and shows clicks, typing, reload,

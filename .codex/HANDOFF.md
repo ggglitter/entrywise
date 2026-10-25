@@ -9,6 +9,10 @@ recovery and local-record undo, fixed stale writes across tabs, and improved
 mobile navigation. It preserved the underlying static architecture and used
 the existing local server. No new runtime dependencies or fees were introduced.
 Current evidence and source hashes: ../devpost/qa-results.json.
+Public preview: https://ggglitter.github.io/entrywise/
+Public file equality evidence: ../devpost/hosting-verification.json.
+No hosted-interaction pass: remote DOM and screenshot calls timed out after
+the page appeared in browser inventory with the application title.
 
 Publication of the newly created competition work is already authorized.
 Do not publish private participant details or credential records. Credentials

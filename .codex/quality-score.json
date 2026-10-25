@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "task_id": "free-remote-competitions-polish-20261025",
+  "task_summary": "Enter eligible free, fully remote competitions using carefully polished permitted works. This repository is one prepared work; actual registrations and submissions remain zero across the private execution ledger.",
+  "evaluated_at": "2026-10-25T10:28:59Z",
+  "repository_fingerprint": "sha256:05acaaa2c3d21bf0b992f427be0434d548321183ca94ad395be42175db64f780",
+  "delivery": {
+    "done_criteria_met": false,
+    "user_requirements_covered": false,
+    "required_verification_passed": false,
+    "diff_reviewed": true,
+    "durable_state_updated": true,
+    "external_release_task": true,
+    "real_target_verified": false,
+    "critical_issues_open": 0,
+    "high_issues_open": 0
+  },
+  "dimensions": {
+    "product_outcome": {
+      "weight": 25,
+      "score": 4.0,
+      "evidence": [
+        "README.md links a working local browser application and public preview, with the original participation task explicitly incomplete.",
+        "The execution ledger has zero organizer registration and submission receipts; the separate ARC baseline is held after 0/167 public evaluation outputs."
+      ]
+    },
+    "correctness": {
+      "weight": 20,
+      "score": 8.8,
+      "evidence": [
+        "devpost/qa-results.json records 45 passed core/workspace tests and exact source hashes.",
+        "Actual browser checks distinguish saved plans, existing registrations after a join cutoff, final deadlines, removed bookmarks and isolated demo data."
+      ]
+    },
+    "verification": {
+      "weight": 20,
+      "score": 8.5,
+      "evidence": [
+        "Browser export, file-chooser restore, cancel, undo and reload were exercised against a real downloaded backup.",
+        "390px navigation and a reproduced stale-tab overwrite were verified after repair; hosted interaction/video playback remain unverified despite exact public file equality."
+      ]
+    },
+    "engineering_quality": {
+      "weight": 15,
+      "score": 8.8,
+      "evidence": [
+        "docs/core.mjs and docs/workspace.mjs isolate deterministic validation and backup normalization from UI handling.",
+        "The static application introduces no new runtime dependencies; git diff --check passed after the final documentation review."
+      ]
+    },
+    "safety_reliability": {
+      "weight": 10,
+      "score": 8.5,
+      "evidence": [
+        "Demo receipts cannot be restored into personal mode; malformed data and credential-bearing URLs are rejected.",
+        "Publication audit checked 44 repository files with zero entrant email/candidate-password matches; actual account creation and contest actions are not fabricated."
+      ]
+    },
+    "maintainability_handoff": {
+      "weight": 10,
+      "score": 8.7,
+      "evidence": [
+        ".codex/APP_STATE.md, TASKS.md and HANDOFF.md identify account, video-hosting, public-browser and actual submission gaps.",
+        "devpost/qa-results.json, hosting-verification.json and versioned raw capture provenance make local and public evidence independently traceable."
+      ]
+    }
+  },
+  "known_gaps": [
+    {
+      "description": "No Devpost account creation or organizer entry/submission receipt; new credential entry requires the user to complete the browser handoff.",
+      "material": true
+    },
+    {
+      "description": "The public YouTube/Vimeo link required by this contest is missing; entrant-only personal statements have not been invented.",
+      "material": true
+    },
+    {
+      "description": "Public files exactly match tested local bytes, but remote browser calls timed out; hosted interactions and video playback remain unverified.",
+      "material": true
+    },
+    {
+      "description": "Other eligible competition works remain unfinished; ineligible, human-authored-only and genuine-photography requirements cannot be bypassed by submitting this app.",
+      "material": true
+    }
+  ]
+}
